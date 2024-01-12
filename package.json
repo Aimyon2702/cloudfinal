@@ -5,7 +5,7 @@
   "scripts": {
     "dev:api": "node backend/server.js",
     "dev:client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run dev:api\" \"npm run dev:client\""
+    "start": "concurrently \"npm run dev:api\" \"npm run dev:client\""
   },
   "keywords": [],
   "author": "",
