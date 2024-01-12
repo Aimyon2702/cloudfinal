@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev:api": "node backend/server.js",
-    "dev:client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run dev:api\" \"npm run dev:client\""
+    "start-server": "node server.js",
+    "start-client": "npm start",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\""
   },
   "keywords": [],
   "author": "",
